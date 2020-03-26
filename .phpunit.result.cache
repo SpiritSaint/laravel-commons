@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":253:{a:2:{s:7:"defects";a:2:{s:24:"ExampleTest::testExample";i:4;s:53:"ExampleTest::friendable_can_view_own_accepted_friends";i:5;}s:5:"times";a:2:{s:24:"ExampleTest::testExample";d:0.29;s:53:"ExampleTest::friendable_can_view_own_accepted_friends";d:0.294;}}}

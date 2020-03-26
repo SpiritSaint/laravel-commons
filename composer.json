@@ -1,0 +1,46 @@
+{
+    "name": "demency/laravel-commons",
+    "description": "This package expands the abilities of your laravel projects.",
+    "keywords": ["laravel", "commons", "plugins", "extensions", "eloquent"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Torres",
+            "email": "iantorres@outlook.com"
+        }
+    ],
+    "autoload-dev": {
+        "classmap": [
+            "vendor/laravel/laravel/tests/TestCase.php"
+        ],
+        "files": [
+            "tests/helpers.php"
+        ],
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "8.*",
+        "fzaninotto/faker": "~1.4",
+        "laravel/laravel": "^7.0",
+        "doctrine/dbal": "^2.5",
+        "orchestra/testbench": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demency\\Commons\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Demency\\Commons\\CommonsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
